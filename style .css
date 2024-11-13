@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;}
+
+
+
+.hero{  height: 100vh;
+    background: url(/sanju-pandita-S-7g_8S8cec-unsplash.jpg) no-repeat center center/cover;
+}
+
+.hero .navbar  { 
+    color: aliceblue;
+    background-color: rgb(27, 27, 27);
+    font-size: larger;
+    font-weight: 900;
+    display: flex;
+    height: 90px;
+    padding: 20px;
+   justify-content: space-between;
+    align-items: center;
+   }
+
+  .hero .navbar  nav ul  { 
+    display: flex;
+    list-style: none;
+    gap: 60px;
+ }
+
+
+ li a{  font-size: x-large;
+    color: aliceblue;}
+
+
+  .hero  button{ background: transparent;
+    color: rgb(18, 183, 0);
+    padding: 5px 10px ;
+    font-weight: 500; 
+    font-size: large;
+    border: 1px dashed whitesmoke;
+}
+
+.content{ height: 100%;
+    color: antiquewhite ;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.btn {
+    background-color: transparent ;
+    color: white;
+    font-size: 25px;
+    padding: 20px 4px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 700;
+    border: 3px solid white ;}
+
+  .about .container { height: 100vh;
+ background: url(/pexels-tirachard-kumtanom-112571-450055.jpg) no-repeat center center/cover;
+ border: 5px solid rgb(28, 28, 29);
+ display: flex;
+flex-direction: row-reverse;
+align-items: center;
+object-fit: cover;
+gap: 15px;
+  }
+
+
+  .container{
+    display: grid;
+    grid-template-rows: 100px 100px;
+    
+  }
+
+  .about .container  h1 { color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+     font-size: 40px;}
+
+     .about .container p{color: rgb(225, 234, 244);
+    text-align: justify;
+font-size: large;}
+
+.container .details{
+    padding: 30px;
+}
+
+
+.bar ul {  color: rgb(51, 50, 50);
+    background-color: rgb(188, 167, 136);
+    font-size: large;
+    font-weight: 600;
+    display: flex;
+    height: 85px;
+    padding: 20px;
+   justify-content: space-between;
+    align-items: center;}
+    
+    .parent { height: 100vh;
+        background-color: black;}
+
+     .villa  {  display:flex;
+        flex-direction: row;
+        align-items: center;
+        border-left: 4px solid  rgb(188, 167, 136);
+        border-right: 4px solid  rgb(188, 167, 136);;
+         }
+  .villa p{ font-size: 20px;
+    margin-left: 65px;
+    color: rgb(152, 154, 156);}
+
+    
+#bold { font-size: 40px;
+    
+ color: beige;}
+ .search{ background-color: transparent ;
+    color: rgb(238, 225, 225);
+    font-size: 15px;
+    padding: 20px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 300;
+    border: 3px solid rgb(176, 148, 99) ;
+    line-height: 80px;
+    word-spacing: 2px;
+}
+
+
+.parent2 { height: 100vh;
+    background-color: black;}
+.villa2  {  display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  border-bottom: 4px solid  rgb(188, 167, 136);
+  border-left:  4px solid  rgb(188, 167, 136);
+  border-right: 4px solid  rgb(188, 167, 136);
+
+     }
+.villa2 p{ font-size: 20px;
+margin-left: 65px;
+color: rgb(152, 154, 156);}
+
+
+#text { font-size: 40px;
+color: beige;}
+
+.page{
+
+    height: 100vh ;
+    background: url(/pexels-ahmetcotur-20975727.jpg) no-repeat center center/cover;
+   
+   
+    
+}
+.row{display: flex;
+flex-direction: row;
+gap: 5px;
+word-spacing: 3px;
+line-height: 28px;}
+
+
+
+.page button  {background-color: rgba(28, 28, 39, 0.5);
+  width: 1518px;
+  height: 740px;
+    font-size: 15px;
+    padding: 20px 10px;
+    line-height: 80px;
+    word-spacing: 2px;}
+
+    #ans{ color: azure;
+        line-height: 67px;
+        word-spacing: 9px;        
+        margin-left: 90px;
+        font-weight: 500;
+        font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;}
+
+    .no{font-size: 60px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 100;
+        line-height: 20px;
+    color: beige;}
+
+    .days{color: rgb(255, 255, 255);
+        font-size: 39px;
+        border-radius: 29px;
+        padding: 4px;
+        margin: 6px;
+        line-height: 60px;
+        background-color: rgba(175, 167, 19, 0.5);
+        font-family: 'Times New Roman', Times, serif;
+
+        font-weight: 300;
+    line-break: normal;}
+
+
+    .last{   height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+     
+        font-family: Arial, sans-serif;} 
+
+        .card {
+            width: 370px;
+            height: 520px;
+            border-radius: 10px;
+
+        }
+        
+        .card img {  
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 5px solid rgb(61, 61, 59);
+            margin-left: 40px;
+            margin-right:40px ;
+            border-radius: ;
+            box-shadow: 10px rgb(149, 149, 110);
+        
+        
+        }
+        .name{ font-size: x-large;
+            padding: 0px;
+            text-align: center;
+        color: rgb(201, 201, 184);
+        background: transparent;
+        background-color: rgba(67, 70, 71, 0.5);
+       }
+        
+    
+       
